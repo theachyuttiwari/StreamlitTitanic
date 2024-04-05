@@ -1,3 +1,4 @@
+pip install sklearn
 import sklearn
 from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.impute import SimpleImputer 
