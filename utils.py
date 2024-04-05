@@ -1,6 +1,6 @@
 from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.impute import SimpleImputer 
-import re
+import sklearn
 
 class PrepProcesor(BaseEstimator, TransformerMixin): 
     def fit(self, X, y=None): 
